@@ -8,3 +8,5 @@
 ## Quiz3: Linear Regression
 
 ## Quiz4: Cross Validation
+
+## Quiz5: Probabolity and MLE
