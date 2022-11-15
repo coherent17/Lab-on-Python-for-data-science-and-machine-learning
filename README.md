@@ -10,3 +10,5 @@
 ## Quiz4: Cross Validation
 
 ## Quiz5: Probabolity and MLE
+
+## Quiz6: Accept Reject Algorithm
