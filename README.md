@@ -11,4 +11,4 @@
 
 ## Quiz5: Probabolity and MLE
 
-## Quiz6: Accept Reject Algorithm
+## Quiz6: Accept Reject Algorithm and Probability
