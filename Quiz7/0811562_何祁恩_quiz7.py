@@ -187,6 +187,7 @@ Bernoulli trial (or binomial trial) is a random experiment with exactly yields t
 """
 
 import matplotlib.pyplot as plt
+import numpy as np
 
 mu = 50
 sigma1 = 10
