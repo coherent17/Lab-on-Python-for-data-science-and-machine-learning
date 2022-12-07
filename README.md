@@ -12,3 +12,7 @@
 ## Quiz5: Probabolity and MLE
 
 ## Quiz6: Accept Reject Algorithm and Probability
+
+## Quiz7: Bayes's Theorem and Bernoulli trials
+
+## Quiz8: PCA (Principle Component Analysis)
