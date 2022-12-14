@@ -16,3 +16,5 @@
 ## Quiz7: Bayes's Theorem and Bernoulli trials
 
 ## Quiz8: PCA (Principle Component Analysis)
+
+## Quiz9: Logistic Regression on mnist

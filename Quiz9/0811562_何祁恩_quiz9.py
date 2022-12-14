@@ -38,23 +38,23 @@ print(X_train.shape, X_test.shape, y_train.shape, y_test.shape)
 """
 
 from sklearn.linear_model import LogisticRegression
-clf = LogisticRegression(max_iter=1000, n_jobs=5)
-clf.fit(X_train, y_train)
+myModel = LogisticRegression(max_iter=1000, n_jobs=5)
+myModel.fit(X_train, y_train)
+print(myModel)
 
 """Predict the model using test data. Check the accuracy by comparing the prediction with the label. **Remember to use test data, not train data!!**
 The result can be in **the scale of 0 to 1** or **percentage (%)**.
 """
 
-score = clf.score(X_test, y_test)
+score = myModel.score(X_test, y_test)
 print(score)
 
 """Show the confusion matrix. Check **metrics from sklearn** for confusion matrix!"""
 
 from sklearn import metrics
-predictions = clf.predict(X_test)
-
-cm = metrics.confusion_matrix(y_true=y_test, y_pred = predictions, labels = clf.classes_)
-cm
+result = myModel.predict(X_test)
+confusionMatrix = metrics.confusion_matrix(y_true=y_test, y_pred = result, labels = myModel.classes_)
+print(confusionMatrix)
 
 """Using seaborn to visualize the confusion matrix"""
 
@@ -62,7 +62,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 plt.figure(figsize=(12,12))
-sns.heatmap(cm, annot=True, linewidths=.5, square = True, cmap = 'Blues_r', fmt='0.4g');
+sns.heatmap(confusionMatrix, annot=True, linewidths=.5, square = True, cmap = 'Blues_r', fmt='0.4g');
 
 plt.ylabel('Actual label')
 plt.xlabel('Predicted label')
