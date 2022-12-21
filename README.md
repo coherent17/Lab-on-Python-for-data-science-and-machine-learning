@@ -18,3 +18,5 @@
 ## Quiz8: PCA (Principle Component Analysis)
 
 ## Quiz9: Logistic Regression on mnist
+
+## Quiz10: Decision Tree on IRIS
