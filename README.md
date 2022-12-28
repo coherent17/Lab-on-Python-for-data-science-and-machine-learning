@@ -20,3 +20,5 @@
 ## Quiz9: Logistic Regression on mnist
 
 ## Quiz10: Decision Tree on IRIS
+
+## Quiz11: PCA, Decision boundary, Gradient Boost Classfier
